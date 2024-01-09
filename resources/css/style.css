@@ -1,0 +1,379 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ruda', sans-serif;
+  overflow-x:hidden;
+}
+.banner-image{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/banner-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.nav-bar img{
+  width: 300px;
+  height: auto;
+  padding-left: 38px;
+}
+.nav-bar ul{
+color: #fff;
+display: flex;
+flex-direction: row;
+text-decoration: none;
+justify-content: space-between;
+}
+.nav-bar ul li{
+  list-style: none;
+}
+.content{
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+}
+.contact-us-btn{
+  color: white;
+  background-color:#e1b067;
+  padding: 10px;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 115px;
+  border: none;
+}
+.learn-more{
+  background-color:#e1b067;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.services,h2,p{
+  text-align: center;
+  margin: 10px;
+}
+.gallery h1{
+  text-align: center;
+}
+.gallery img{
+  width: 500px;
+  height: auto;
+  object-fit: contain;
+  gap: 20px;
+ 
+}
+.footer{
+ 
+  background-color: black;
+}
+.footer img{
+  width: 230px;
+  height: auto;
+  object-fit: contain;
+  padding-left: 80px;
+  
+}
+.footer ul li{
+  color: white;
+  display: inline-block;
+}
+.footer p{
+  color: white;
+}
+.send{
+  background-color:#e1b067;
+  padding: 10px 30px;
+  color: white;
+
+  border: none;
+  border-radius: 12px;
+}
+.our-services-btn{
+  background-color:#e1b067;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 30px;
+}
+.contact p{
+  color: white;
+}
+.fa-envelope{
+  color: #e1b067;
+
+}
+.location{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.fa-location-dot{
+  color: #e1b067;
+ font-size: 20px;
+}
+.contact-form{
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.services{
+  margin-bottom: 50px;
+}
+.about-us img{
+  width:100%;
+  height:auto;
+}
+.our-services-btn{
+margin-left: 10px;
+
+
+}
+
+.tailored-solution, .trust, .experience{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ margin-left: 43px;
+ 
+}
+.tailored-solution:hover, .trust:hover, .experience:hover{
+  background-color: #e1b067;
+  color: white;
+  cursor: pointer;
+}
+.features{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+input[type=text], select, textarea,.email,.number {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+.copyright
+{
+  margin-top: -10px;
+}
+
+
+#gallery{
+  -webkit-column-count:4;
+  -moz-column-count:4;
+  column-count:4;
+  
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+@media (max-width:1200px){
+  #gallery{
+  -webkit-column-count:3;
+  -moz-column-count:3;
+  column-count:3;
+    
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+}
+@media (max-width:800px){
+  #gallery{
+  -webkit-column-count:2;
+  -moz-column-count:2;
+  column-count:2;
+    
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+}
+@media (max-width:600px){
+  #gallery{
+  -webkit-column-count:1;
+  -moz-column-count:1;
+  column-count:1;
+}  
+}
+#gallery img,#gallery video {
+  width:100%;
+  height:auto;
+  margin: 4% auto;
+  box-shadow:-3px 5px 15px #000;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.modal-img,.model-vid{
+  width:100%;
+  height:auto;
+}
+.modal-body{
+  padding:0px;
+}
+
+.fa-phone,.fa-clock {
+  color: #e1b067;
+  font-size: 20px;
+}
+.footer ul li{
+  padding: 10px;
+}
+.learn-more{
+  margin-bottom: 20px;
+}
+.gallery-text{
+  text-align: center;
+}
+
+.our-services-btn{
+  margin-left: 100px;
+  margin-bottom: 20px;
+
+
+}
+.location-info{
+  padding-bottom: 10px;
+  padding-left: 20px;
+ 
+}
+.experience, .tailored-solution, .trust{
+  margin-right: 20px;
+  gap: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  
+}
+.fa-thumbs-up,.fa-bookmark,.fa-star{
+  color: #e1b067;
+  font-size: 40px;
+}
+@media only screen and (min-width: 426px){
+	.contact-us-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .gallery{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  }
+  .gallery img{
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+  }
+  .about-us img{
+    width: 500px;
+    height: auto;
+    object-fit: contain;
+  }
+  .footer{
+    margin-top: -10px;
+    text-align: center;
+    padding: 30px;
+  }
+  .nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nav-bar .links{
+    padding-top: 100px;
+padding-right: 300px;
+padding: 100px;
+  }
+  .contact-us-btn{
+    margin-left: 670px;
+  }
+  .features{
+    display: flex;
+    flex-direction: row !important;
+
+  }
+  .location{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .about-us{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    justify-content: space-between;
+  }
+  .about-us p{
+    text-align: left;
+  }
+  
+  .aboutus h2{
+    text-align: left;
+  }
+  .aboutus p{
+    text-align: left;
+  }
+  .links ul li{
+    padding: 10px;
+  }
+  .contact-info p
+  {
+    text-align: left;
+  }
+ .footer img{
+  width: 230px;
+  height: auto;
+  object-fit: contain;
+  padding-left: 10px;
+  
+}
+
+.features {
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+}
+
+.experience,
+.tailored-solution,
+.trust {
+  flex: 1;
+  max-width: 30%; /* Adjust the width as needed */
+  padding: 20px; /* Add padding as needed */
+  border: 1px solid #ccc; /* Add a border for better separation */
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+/* Optional: Add additional styling for better visual appeal */
+.features h2 {
+  color: #333;
+}
+
+.features p {
+  color: #666;
+}
+.our-services{
+  text-align: center;
+  padding-top: 20px;
+}
+.fa-thumbs-up,.fa-bookmark,.fa-star{
+  color: #e1b067;
+  font-size: 40px;
+}
+.location-info{
+  padding-left: 10px;
+}
+}
